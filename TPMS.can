@@ -1,0 +1,50 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  message Engine_Message EM;
+  message FLW_Message FLWP;
+  message FRW_Message FRWP;
+  message RLW_Message RLWP;
+  message RRW_Message RRWP;
+}
+
+on envVar Env_FLW
+{
+  if(@Env_Engine==1)
+  {
+    FLWP.FLW_Signal = @Env_FLW;
+    output(FLWP);
+  }
+}
+
+on envVar Env_FRW
+{
+  if(@Env_Engine==1)
+  {
+    FRWP.FRW_Signal = @Env_FRW;
+    output(FRWP);
+  }
+}
+
+on envVar Env_RLW
+{
+  if(@Env_Engine==1)
+  {
+    RLWP.RLW_Signal = @Env_RLW;
+    output(RLWP);
+  }
+}
+
+on envVar Env_RRW
+{
+  if(@Env_Engine==1)
+  {
+    RRWP.RRW_Signal = @Env_RRW;
+    output(RRWP);
+  }
+}

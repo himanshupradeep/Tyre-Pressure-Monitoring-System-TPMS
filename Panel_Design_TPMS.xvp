@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="Panel_Design_TPMS">
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl2" ControlName="Switch/Indicator 2">
+      <Property Name="Name">SwitchControl2</Property>
+      <Property Name="Size">195, 252</Property>
+      <Property Name="Location">419, 79</Property>
+      <Property Name="StateCnt">0</Property>
+      <Property Name="SwitchValues">1;0</Property>
+      <Property Name="Increment">0</Property>
+      <Property Name="ImageFile">C:\Users\himan\Downloads\pngtree-f1-car-scheme-top-view-single-drawing-design-vector-png-image_5566966.png</Property>
+      <Property Name="SymbolConfiguration">
+      </Property>
+      <Property Name="TabIndex">21</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl1" Children="Controls" ControlName="Input/Output Box">
+      <Property Name="Name">TextBoxControl1</Property>
+      <Property Name="Size">165, 29</Property>
+      <Property Name="Location">206, 131</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="ValueDecimalPlaces">0</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="ValueDisplay">Decimal</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
+      <Property Name="AlarmGeneralSettings">1;2;0;32</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="DescriptionText">FLW_Signal</Property>
+      <Property Name="DescriptionSize">62, 16</Property>
+      <Property Name="SymbolConfiguration">5;2;DBC_TPMS;TPMS_ECU;FLW_Message;FLW_Signal;1;CAN;;-1;;;</Property>
+      <Property Name="TabIndex">15</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl4" Children="Controls" ControlName="Input/Output Box">
+      <Property Name="Name">TextBoxControl4</Property>
+      <Property Name="Size">167, 29</Property>
+      <Property Name="Location">651, 310</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="ValueDecimalPlaces">0</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="ValueDisplay">Decimal</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
+      <Property Name="AlarmGeneralSettings">1;2;0;32</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="DescriptionText">RRW_Signal</Property>
+      <Property Name="DescriptionSize">65, 16</Property>
+      <Property Name="SymbolConfiguration">5;2;DBC_TPMS;TPMS_ECU;RRW_Message;RRW_Signal;1;CAN;;-1;;;</Property>
+      <Property Name="TabIndex">14</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl3" Children="Controls" ControlName="Input/Output Box">
+      <Property Name="Name">TextBoxControl3</Property>
+      <Property Name="Size">166, 29</Property>
+      <Property Name="Location">206, 310</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="ValueDecimalPlaces">0</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="ValueDisplay">Decimal</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
+      <Property Name="AlarmGeneralSettings">1;2;0;32</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="DescriptionText">RLW_Signal</Property>
+      <Property Name="DescriptionSize">63, 16</Property>
+      <Property Name="SymbolConfiguration">5;2;DBC_TPMS;TPMS_ECU;RLW_Message;RLW_Signal;1;CAN;;-1;;;</Property>
+      <Property Name="TabIndex">13</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl2" Children="Controls" ControlName="Input/Output Box">
+      <Property Name="Name">TextBoxControl2</Property>
+      <Property Name="Size">166, 29</Property>
+      <Property Name="Location">646, 131</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="ValueDecimalPlaces">0</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="ValueDisplay">Decimal</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
+      <Property Name="AlarmGeneralSettings">1;2;0;32</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="DescriptionText">FRW_Signal</Property>
+      <Property Name="DescriptionSize">64, 16</Property>
+      <Property Name="SymbolConfiguration">5;2;DBC_TPMS;TPMS_ECU;FRW_Message;FRW_Signal;1;CAN;;-1;;;</Property>
+      <Property Name="TabIndex">12</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl5" Children="Controls" ControlName="Static Text">
+      <Property Name="Name">StaticTextControl5</Property>
+      <Property Name="Size">123, 14</Property>
+      <Property Name="Location">221, 105</Property>
+      <Property Name="Font">Microsoft Sans Serif, 8.142858pt, style=Bold</Property>
+      <Property Name="Text">FRONT LEFT WHEEL</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl4" Children="Controls" ControlName="Static Text">
+      <Property Name="Name">StaticTextControl4</Property>
+      <Property Name="Size">115, 14</Property>
+      <Property Name="Location">221, 276</Property>
+      <Property Name="Font">Microsoft Sans Serif, 8.142858pt, style=Bold</Property>
+      <Property Name="Text">REAR LEFT WHEEL</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl3" Children="Controls" ControlName="Static Text">
+      <Property Name="Name">StaticTextControl3</Property>
+      <Property Name="Size">121, 14</Property>
+      <Property Name="Location">669, 276</Property>
+      <Property Name="Font">Microsoft Sans Serif, 8.142858pt, style=Bold</Property>
+      <Property Name="Text">REAR RIGHT WHEEL</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl2" Children="Controls" ControlName="Static Text">
+      <Property Name="Name">StaticTextControl2</Property>
+      <Property Name="Size">130, 14</Property>
+      <Property Name="Location">669, 105</Property>
+      <Property Name="Font">Microsoft Sans Serif, 8.142858pt, style=Bold</Property>
+      <Property Name="Text">FRONT RIGHT WHEEL</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TrackBarControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="TrackBarControl4" Children="Controls" ControlName="Track Bar">
+      <Property Name="Name">TrackBarControl4</Property>
+      <Property Name="Size">267, 47</Property>
+      <Property Name="Location">159, 242</Property>
+      <Property Name="Maximum">36</Property>
+      <Property Name="DisplayMinMax">True</Property>
+      <Property Name="MaximumDouble">36</Property>
+      <Property Name="SymbolConfiguration">5;1;DBC_TPMS;;;Env_RLW;1;;;-1;;;</Property>
+      <Property Name="TabIndex">6</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TrackBarControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="TrackBarControl3" Children="Controls" ControlName="Track Bar">
+      <Property Name="Name">TrackBarControl3</Property>
+      <Property Name="Size">267, 47</Property>
+      <Property Name="Location">596, 242</Property>
+      <Property Name="Maximum">36</Property>
+      <Property Name="DisplayMinMax">True</Property>
+      <Property Name="MaximumDouble">36</Property>
+      <Property Name="SymbolConfiguration">5;1;DBC_TPMS;;;Env_RRW;1;;;-1;;;</Property>
+      <Property Name="TabIndex">5</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TrackBarControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="TrackBarControl2" Children="Controls" ControlName="Track Bar">
+      <Property Name="Name">TrackBarControl2</Property>
+      <Property Name="Size">267, 47</Property>
+      <Property Name="Location">596, 79</Property>
+      <Property Name="Maximum">32</Property>
+      <Property Name="DisplayMinMax">True</Property>
+      <Property Name="MaximumDouble">32</Property>
+      <Property Name="SymbolConfiguration">5;1;DBC_TPMS;;;Env_FRW;1;;;-1;;;</Property>
+      <Property Name="TabIndex">4</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TrackBarControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="TrackBarControl1" Children="Controls" ControlName="Track Bar">
+      <Property Name="Name">TrackBarControl1</Property>
+      <Property Name="Size">267, 47</Property>
+      <Property Name="Location">159, 79</Property>
+      <Property Name="Maximum">32</Property>
+      <Property Name="DisplayMinMax">True</Property>
+      <Property Name="MaximumDouble">32</Property>
+      <Property Name="SymbolConfiguration">5;1;DBC_TPMS;;;Env_FLW;1;;;-1;;;</Property>
+      <Property Name="TabIndex">3</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl1" Children="Controls" ControlName="Static Text">
+      <Property Name="Name">StaticTextControl1</Property>
+      <Property Name="Size">50, 14</Property>
+      <Property Name="Location">99, 213</Property>
+      <Property Name="Font">Microsoft Sans Serif, 8.142858pt, style=Bold</Property>
+      <Property Name="Text">ENGINE</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.127.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl1" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl1</Property>
+      <Property Name="Size">40, 51</Property>
+      <Property Name="Location">103, 158</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="ImageFile">C:\Users\Public\Documents\Vector\CANoe\Sample Configurations 18.3.118\CAN\CANSystemDemo\Panels\Bitmaps\ControlIgnition.bmp</Property>
+      <Property Name="SymbolConfiguration">5;1;DBC_TPMS;;;Env_Engine;1;;;-1;;;</Property>
+      <Property Name="TabIndex">0</Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">1288, 1023</Property>
+    <Property Name="BackColor">White</Property>
+  </Object>
+</Panel>

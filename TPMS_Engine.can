@@ -1,0 +1,39 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  message Engine_Message EM; //Declaring a message variable EM of type Engine Message 
+  msTimer engine_timer; //Declare a millisec timer variable engine_timer
+ 
+}
+
+on start 
+{
+  setTimer (engine_timer,500);
+  write("Engine ECU is initialized");
+}
+on envVar Env_Engine
+{
+  if(@Env_Engine==1) //Check now if env==1
+    {
+      EM.Engine_Signal = @Env_Engine; //set the engine, to input value from user
+      output(EM);
+      write ("Engine is On");
+    }
+    else
+    {
+      EM.Engine_Signal=@Env_Engine;
+      output(EM);
+      write("Engine is off");
+    }
+}
+
+on timer engine_timer
+{
+  output(EM); //Send the EM message on CAN Bus
+  setTimer (engine_timer,500); //reset engine_timer to trigger again after 500ms, sending this message repeatedly
+} 
