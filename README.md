@@ -12,7 +12,8 @@ A typical visualization displays each tire’s pressure individually, often usin
 
 ## Project Overview
 
-![ScreenRecording2025-06-18020142-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/4c5876bb-a712-4a59-ad22-e892b5be886b)
+![ScreenRecording2025-06-20212338-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/6d068bd9-0a59-4efe-b4fb-a19c9b1cf6db)
+
 
 
 The **Tyre Pressure Monitoring System (TPMS)** activates upon engine startup, utilizing the **Engine ECU** to wake up and read tyre pressures from TPMS across all four wheels:  
@@ -26,7 +27,8 @@ These pressure readings are processed through a control function, which evaluate
 - 🟠 **Orange** – Medium pressure  
 - 🔴 **Red** – Critically low pressure  
 
-![Screenshot 2025-06-18 021549](https://github.com/user-attachments/assets/1201c148-e1bb-49b0-b985-900f10eabaf9)
+![Screenshot 2025-06-20 212147](https://github.com/user-attachments/assets/8ac1ce65-3cba-4e26-bebb-4bd36bcee3ed)
+
 
 ## Project Phases  
 ### 1. Simulation  
